@@ -1,5 +1,7 @@
 Dockerfile and nightwatch.json files for running Nightwatch tests under CI. This example for Drone CI but you can
-do the same in any other CI system.
+do the same in any other CI system. Image contains node v12.13.1 and google-chrome-stable 79.0.3945.
+
+> note that this image DOESN'T contain nightwatch package itself, you should install it
 
 ```yaml
 kind: pipeline
