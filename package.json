@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "UI tests",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^78.0.0",
+    "nightwatch": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "public",
+  "license": "ISC"
+}
